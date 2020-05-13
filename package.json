@@ -4,13 +4,16 @@
     "publisher": "AlexShenVSCode",
     "displayName": "Alex's Dark Theme",
     "description": "Alex Shen's dark theme for VSCode",
-    "version": "0.0.1",
     "engines": {
         "vscode": "^1.45.0"
     },
     "categories": [
         "Themes"
     ],
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/ao-shen/VSCodeTheme"
+	},
     "contributes": {
         "themes": [
             {

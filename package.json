@@ -1,11 +1,11 @@
 {
     "name": "alex-s-dark-theme",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "publisher": "AlexShenVSCode",
     "displayName": "Alex's Dark Theme",
     "description": "Alex Shen's dark theme for VSCode",
     "engines": {
-        "vscode": "^1.45.0"
+        "vscode": "^1.44.0"
     },
     "categories": [
         "Themes"

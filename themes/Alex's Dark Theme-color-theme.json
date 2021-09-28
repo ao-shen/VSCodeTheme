@@ -132,37 +132,12 @@
 		"*.defaultLibrary": "#5cd4bc",
 		"*.readonly": "#60cadd",
 	},
-	"tokenColors": [{
-			"scope": "string",
-			"settings": {
-				"foreground": "#BE7689"
-			}
-		},
-		{
-			"scope": "variables",
-			"settings": {
-				"foreground": "#ffd2e9"
-			}
-		},
-		{
-			"scope": "comments",
-			"settings": {
-				"foreground": "#d198b9", 
-				"fontStyle": "italic" 
-			}
-		},
-		{
-			"scope": "keywords",
-			"settings": {
-				"foreground": "#8aa9e2", 
-				"fontStyle": "italic"
-			}
-		},
+	"tokenColors": [
 		{
 			"name": "Comment",
 			"scope": ["comment"],
 			"settings": {
-				"foreground": "#c1a6bb",
+				"foreground": "#d198b9",
 				"fontStyle": "italic"
 			}
 		},
@@ -191,14 +166,15 @@
 			"name": "Keyword",
 			"scope": ["keyword"],
 			"settings": {
-				"foreground": "#d193e4"
+				"foreground": "#8aa9e2", 
+				"fontStyle": "italic"
 			}
 		},
 		{
 			"name": "Keyword Control",
 			"scope": ["keyword.control"],
 			"settings": {
-				"foreground": "#d193e4",
+				"foreground": "#8aa9e2", 
 				"fontStyle": "italic"
 			}
 		},
@@ -206,21 +182,24 @@
 			"name": "Keyword Operator",
 			"scope": ["keyword.operator"],
 			"settings": {
-				"foreground": "#d6c4d2"
+				"foreground": "#8aa9e2", 
+				"fontStyle": "italic"
 			}
 		},
 		{
 			"name": "Keyword Other Special Method",
 			"scope": ["keyword.other.special-method"],
 			"settings": {
-				"foreground": "#DAFBAC"
+				"foreground": "#8aa9e2", 
+				"fontStyle": "italic"
 			}
 		},
 		{
 			"name": "Keyword Other Unit",
 			"scope": ["keyword.other.unit"],
 			"settings": {
-				"foreground": "#FAE3C6"
+				"foreground": "#8aa9e2", 
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -255,7 +234,7 @@
 			"name": "Constant Variable",
 			"scope": ["constant.variable"],
 			"settings": {
-				"foreground": "#FAE3C6"
+				"foreground": "#ffd2e9"
 			}
 		},
 		{
@@ -291,7 +270,7 @@
 			"name": "Variable",
 			"scope": ["variable"],
 			"settings": {
-				"foreground": "#f17ba6"
+				"foreground": "#ffd2e9"
 			}
 		},
 		{
@@ -312,7 +291,7 @@
 			"name": "String",
 			"scope": ["string"],
 			"settings": {
-				"foreground": "#ffc3d3"
+				"foreground": "#BE7689"
 			}
 		},
 		{

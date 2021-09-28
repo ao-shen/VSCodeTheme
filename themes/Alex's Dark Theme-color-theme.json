@@ -14,7 +14,6 @@
 		"dropdown.background": "#353b45",
 		"dropdown.border": "#181A1F",
 		"editor.background": "#282C34",
-		"editor.lineHighlightBackground": "#2C313A",
 		"editor.selectionBackground": "#505663",
 		"editorCursor.foreground": "#8BB5B0",
 		"editorGroup.border": "#181A1F",
@@ -115,9 +114,51 @@
 		"editorWarning.foreground": "#a88bff",
 		"editorInfo.foreground": "#d193e4",
 		"editorHint.foreground": "#8db9e2",
-
+		"editor.findMatchBackground": "#b43355",
+		"editor.findMatchHighlightBackground": "#5f2d3a",
+		"editor.findRangeHighlightBackground": "#5f2d3a",
+		"editor.hoverHighlightBackground": "#efadff21",
+		"editor.lineHighlightBackground": "#ffc2de1f",
+		"editorBracketMatch.background": "#ffc2de71",
+		"editorBracketMatch.border": "#ffc2de",
+	},
+	"semanticHighlighting": true,
+	"semanticTokenColors": {
+		"function": "#ffcb9a",
+		"method": {"foreground": "#fff7b3", "italic": true },
+		"variable": "#c2a5e9",
+		"parameter": { "foreground": "#b7ff9a", "italic": true },
+		"property": "#ffb8fb",
+		"*.defaultLibrary": "#5cd4bc",
+		"*.readonly": "#60cadd",
 	},
 	"tokenColors": [{
+			"scope": "string",
+			"settings": {
+				"foreground": "#BE7689"
+			}
+		},
+		{
+			"scope": "variables",
+			"settings": {
+				"foreground": "#ffd2e9"
+			}
+		},
+		{
+			"scope": "comments",
+			"settings": {
+				"foreground": "#d198b9", 
+				"fontStyle": "italic" 
+			}
+		},
+		{
+			"scope": "keywords",
+			"settings": {
+				"foreground": "#8aa9e2", 
+				"fontStyle": "italic"
+			}
+		},
+		{
 			"name": "Comment",
 			"scope": ["comment"],
 			"settings": {
@@ -228,7 +269,8 @@
 			"name": "Constant Numeric",
 			"scope": ["constant.numeric"],
 			"settings": {
-				"foreground": "#FAE3C6"
+				"foreground": "#f7fce9",
+                "fontStyle": "italic"
 			}
 		},
 		{
@@ -669,6 +711,14 @@
 			"scope": ["source.java-properties meta.key-pair > punctuation"],
 			"settings": {
 				"foreground": "#B392AC"
+			}
+		},
+		{
+			"name": "Source Js Keyword this Operator",
+			"scope": ["variable.language.this.js"],
+			"settings": {
+				"foreground": "#8781db",
+                "fontStyle": "italic"
 			}
 		},
 		{
@@ -1238,7 +1288,8 @@
 				"variable.other.constant.object.tsx"
 			],
 			"settings": {
-				"foreground": "#FAE3C6"
+				"foreground": "#a05f5f",
+                "fontStyle": "italic"
 			}
 		},
 		{

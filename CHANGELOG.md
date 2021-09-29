@@ -6,6 +6,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## [Unreleased]
 
+## [1.1.2] - 2021-09-28
+### Added
+- Added an Icon!
+
 ## [1.1.1] - 2021-09-28
 ### Changed
 - Changed all the colors to be cooler!

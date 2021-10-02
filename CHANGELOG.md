@@ -1,10 +1,8 @@
 # Change Log
 
-All notable changes to the "alex-s-dark-theme" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
+## [1.2.0] - 2021-10-01
+### Added
+- Added demo image in the Readme
 
 ## [1.1.2] - 2021-09-28
 ### Added
